@@ -2,7 +2,7 @@
 
 Hello Mr. Jeffers!
 
-This repository contains all my files and projects for my Computer Science class.
+This repository contains all my files and projects for my Computer Science class, CSE-10B.
 
 ## Repository Structure
 
