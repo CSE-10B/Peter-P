@@ -1,8 +1,7 @@
-# this program checks if a character is a vowel or not
-char = input("Enter a single character: ") # get input from user
-# convert to lowercase to handle uppercase vowels
-char = char.lower() # make character lowercase
-if char == 'a' or char == 'e' or char == 'i' or char == 'o' or char == 'u': # check if the character is a vowel
-    print(char, "is a vowel") # print vowel message
-else: # run this if it is not a vowel
-    print(char, "is not a vowel") # print not vowel message
+# this program checks if a character is a vowel
+char = input("Enter a character: ") # this asks the user for a character
+char = char.lower() # this changes the character to lowercase
+if char == "a" or char == "e" or char == "i" or char == "o" or char == "u": # this checks if the character is a vowel
+    print(char, "is a vowel") # this prints that the character is a vowel
+else: # this runs if the character is not a vowel
+    print(char, "is not a vowel") # this prints that the character is not a vowel

@@ -1,14 +1,10 @@
-# this program converts between Celsius and Fahrenheit
-# get celsius from user
-c = input("Enter temperature in Celsius: ") # ask for celsius value
-c = float(c) # convert to float
-# calculate fahrenheit
-f_from_c = (c * 9/5) + 32 # formula to convert
-print(c, "°C is", f_from_c, "in Fahrenheit") # display result
+# this program converts Celsius to Fahrenheit and Fahrenheit to Celsius
+celsius = input("Enter a temperature in Celsius: ") # this asks the user for a Celsius value
+celsius = float(celsius) # this changes the Celsius value to a float
+fahrenheit = (celsius * 9 / 5) + 32 # this changes Celsius to Fahrenheit
+print(celsius, "degrees Celsius is", fahrenheit, "degrees Fahrenheit") # this prints the Celsius to Fahrenheit result
 
-# get fahrenheit from user
-f = input("Enter temperature in Fahrenheit: ") # ask for fahrenheit value
-f = float(f) # convert to float
-# calculate celsius
-c_from_f = (f - 32) * 5/9 # formula to convert
-print(f, "°F is", c_from_f, "in Celsius") # display result
+fahrenheit_input = input("Enter a temperature in Fahrenheit: ") # this asks the user for a Fahrenheit value
+fahrenheit_input = float(fahrenheit_input) # this changes the Fahrenheit value to a float
+celsius_result = (fahrenheit_input - 32) * 5 / 9 # this changes Fahrenheit to Celsius
+print(fahrenheit_input, "degrees Fahrenheit is", celsius_result, "degrees Celsius") # this prints the Fahrenheit to Celsius result

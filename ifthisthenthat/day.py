@@ -1,19 +1,19 @@
-# this program prints day name based on number input
-num = input("Enter a number (1-7): ") # get input from user
-num = int(num) # convert to integer
-if num == 1: # check each number
-    print("Monday") # print day
-elif num == 2: # check if number is 2
-    print("Tuesday") # print day
-elif num == 3: # check if number is 3
-    print("Wednesday") # print day
-elif num == 4: # check if number is 4
-    print("Thursday") # print day
-elif num == 5: # check if number is 5
-    print("Friday") # print day
-elif num == 6: # check if number is 6
-    print("Saturday") # print day
-elif num == 7: # check if number is 7
-    print("Sunday") # print day
-else: # run this if the number is outside 1 to 7
-    print("Invalid number") # handle wrong input
+# this program prints the day for a number from 1 to 7
+num = input("Enter a number from 1 to 7: ") # this asks the user for a number
+num = int(num) # this changes the input to an integer
+if num == 1: # this checks if the number is 1
+    print("Monday") # this prints Monday
+elif num == 2: # this checks if the number is 2
+    print("Tuesday") # this prints Tuesday
+elif num == 3: # this checks if the number is 3
+    print("Wednesday") # this prints Wednesday
+elif num == 4: # this checks if the number is 4
+    print("Thursday") # this prints Thursday
+elif num == 5: # this checks if the number is 5
+    print("Friday") # this prints Friday
+elif num == 6: # this checks if the number is 6
+    print("Saturday") # this prints Saturday
+elif num == 7: # this checks if the number is 7
+    print("Sunday") # this prints Sunday
+else: # this runs if the number is not from 1 to 7
+    print("Invalid number") # this prints an invalid number message

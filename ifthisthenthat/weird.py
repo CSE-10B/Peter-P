@@ -1,13 +1,13 @@
-# this program prints messages based on value of n
-n = input("Enter an integer: ") # take input
-n = int(n) # convert to integer
-if n % 2 == 1: # check odd
-    print("Weird") # odd case
-elif n % 2 == 0 and n >= 2 and n <= 5: # even 2-5
-    print("Not Weird") # print not weird for 2 to 5
-elif n % 2 == 0 and n >= 6 and n <= 10: # even 6-10
-    print("Weird") # print weird for 6 to 10
-elif n % 2 == 0 and n > 20: # even and greater than 20
-    print("Not Weird") # print not weird for numbers above 20
-else: # run this for the remaining even numbers
-    print("Weird") # print weird for other cases
+# this program prints Weird or Not Weird based on the rules
+n = input("Enter an integer: ") # this asks the user for an integer
+n = int(n) # this changes the input to an integer
+if n % 2 == 1: # this checks if the number is odd
+    print("Weird") # this prints Weird for odd numbers
+elif n >= 2 and n <= 5: # this checks if the number is from 2 to 5
+    print("Not Weird") # this prints Not Weird for numbers from 2 to 5
+elif n >= 6 and n <= 10: # this checks if the number is from 6 to 10
+    print("Weird") # this prints Weird for numbers from 6 to 10
+elif n > 20: # this checks if the number is greater than 20
+    print("Not Weird") # this prints Not Weird for numbers greater than 20
+else: # this runs for the remaining numbers
+    print("Weird") # this prints Weird for the remaining numbers
